@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Augustine of Hippo</string>
+			<key>born</key>
+			<date>354-11-14T05:50:36Z</date>
+			<key>died</key>
+			<date>430-08-29T05:50:36Z</date>
+			<key>bio</key>
+			<string>test</string>
+			<key>themes</key>
+			<string>test</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Reinhold Niebuhr</string>
+			<key>born</key>
+			<date>1892-06-21T06:00:00Z</date>
+			<key>died</key>
+			<date>1971-06-01T05:00:00Z</date>
+			<key>bio</key>
+			<string>test</string>
+			<key>themes</key>
+			<string>test</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Malcolm X</string>
+			<key>born</key>
+			<date>1925-05-19T05:00:00Z</date>
+			<key>died</key>
+			<date>1965-02-21T06:00:00Z</date>
+			<key>bio</key>
+			<string>test</string>
+			<key>themes</key>
+			<string>test</string>
+		</dict>
+	</array>
+</plist>

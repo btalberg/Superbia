@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A723B0D148D4A0C00015EE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A723B0C148D4A0C00015EE3 /* UIKit.framework */; };
+		8A723B0F148D4A0C00015EE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A723B0E148D4A0C00015EE3 /* Foundation.framework */; };
+		8A723B11148D4A0C00015EE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A723B10148D4A0C00015EE3 /* CoreGraphics.framework */; };
+		8A723B17148D4A0C00015EE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A723B15148D4A0C00015EE3 /* InfoPlist.strings */; };
+		8A723B19148D4A0C00015EE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B18148D4A0C00015EE3 /* main.m */; };
+		8A723B1D148D4A0C00015EE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B1C148D4A0C00015EE3 /* AppDelegate.m */; };
+		8A723B20148D4A0D00015EE3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A723B1E148D4A0D00015EE3 /* MainStoryboard_iPhone.storyboard */; };
+		8A723B23148D4A0D00015EE3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A723B21148D4A0D00015EE3 /* MainStoryboard_iPad.storyboard */; };
+		8A723B26148D4A0D00015EE3 /* TheologiansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B25148D4A0D00015EE3 /* TheologiansViewController.m */; };
+		8A723B2D148D4A0D00015EE3 /* TopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B2C148D4A0D00015EE3 /* TopicsViewController.m */; };
+		8A723B43148D4D0E00015EE3 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B41148D4D0E00015EE3 /* AboutViewController.m */; };
+		8A723B48148D4D6600015EE3 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B47148D4D6600015EE3 /* MoreViewController.m */; };
+		8A723B4B148D572500015EE3 /* BioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B4A148D572400015EE3 /* BioViewController.m */; };
+		8A723B4E148D5B7100015EE3 /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B4D148D5B7100015EE3 /* TopicViewController.m */; };
+		8A723B51148D5DE700015EE3 /* Pride.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B4F148D5DE500015EE3 /* Pride.xcdatamodeld */; };
+		8A723B55148D612800015EE3 /* AppGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B54148D612800015EE3 /* AppGlobals.m */; };
+		8A723B97148D68CE00015EE3 /* Theologian.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B96148D68CE00015EE3 /* Theologian.m */; };
+		8A723B9A148D68CF00015EE3 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B99148D68CF00015EE3 /* Topic.m */; };
+		8A723B9D148D68D000015EE3 /* TheologianTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A723B9C148D68D000015EE3 /* TheologianTopic.m */; };
+		8A723BDC148D6C9900015EE3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A723BDB148D6C9900015EE3 /* CoreData.framework */; };
+		8A723C92148D783A00015EE3 /* theologians.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A723C91148D783A00015EE3 /* theologians.plist */; };
+		8A723C94148D79E800015EE3 /* topics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A723C93148D79E800015EE3 /* topics.plist */; };
+		8A723C96148D7C4200015EE3 /* theologians_topics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A723C95148D7C4200015EE3 /* theologians_topics.plist */; };
+		8A723CA3148DC7D500015EE3 /* augustine_button_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723C97148DC7CA00015EE3 /* augustine_button_selected.png */; };
+		8A723CA4148DC7D500015EE3 /* augustine_button_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723C98148DC7CA00015EE3 /* augustine_button_selected@2x.png */; };
+		8A723CA5148DC7D500015EE3 /* augustine_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723C99148DC7CB00015EE3 /* augustine_button.png */; };
+		8A723CA6148DC7D500015EE3 /* augustine_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723C9A148DC7CB00015EE3 /* augustine_button@2x.png */; };
+		8A723CA7148DC7D500015EE3 /* malcolm_button_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723C9B148DC7CC00015EE3 /* malcolm_button_selected.png */; };
+		8A723CA8148DC7D500015EE3 /* malcolm_button_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723C9C148DC7CD00015EE3 /* malcolm_button_selected@2x.png */; };
+		8A723CA9148DC7D500015EE3 /* malcolm_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723C9D148DC7CD00015EE3 /* malcolm_button.png */; };
+		8A723CAA148DC7D500015EE3 /* malcolm_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723C9E148DC7CE00015EE3 /* malcolm_button@2x.png */; };
+		8A723CAB148DC7D500015EE3 /* neibuhr_button_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723C9F148DC7CF00015EE3 /* neibuhr_button_selected.png */; };
+		8A723CAC148DC7D500015EE3 /* neibuhr_button_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723CA0148DC7CF00015EE3 /* neibuhr_button_selected@2x.png */; };
+		8A723CAD148DC7D500015EE3 /* neibuhr_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723CA1148DC7D300015EE3 /* neibuhr_button.png */; };
+		8A723CAE148DC7D500015EE3 /* neibuhr_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723CA2148DC7D400015EE3 /* neibuhr_button@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A723B08148D4A0C00015EE3 /* Power of Pride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power of Pride.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A723B0C148D4A0C00015EE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A723B0E148D4A0C00015EE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A723B10148D4A0C00015EE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A723B14148D4A0C00015EE3 /* Power of Pride-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Power of Pride-Info.plist"; sourceTree = "<group>"; };
+		8A723B16148D4A0C00015EE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A723B18148D4A0C00015EE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A723B1A148D4A0C00015EE3 /* Power of Pride-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Power of Pride-Prefix.pch"; sourceTree = "<group>"; };
+		8A723B1B148D4A0C00015EE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A723B1C148D4A0C00015EE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A723B1F148D4A0D00015EE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8A723B22148D4A0D00015EE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8A723B24148D4A0D00015EE3 /* TheologiansViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheologiansViewController.h; sourceTree = "<group>"; };
+		8A723B25148D4A0D00015EE3 /* TheologiansViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheologiansViewController.m; sourceTree = "<group>"; };
+		8A723B2B148D4A0D00015EE3 /* TopicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicsViewController.h; sourceTree = "<group>"; };
+		8A723B2C148D4A0D00015EE3 /* TopicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicsViewController.m; sourceTree = "<group>"; };
+		8A723B40148D4D0E00015EE3 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		8A723B41148D4D0E00015EE3 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		8A723B46148D4D6600015EE3 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		8A723B47148D4D6600015EE3 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		8A723B49148D572400015EE3 /* BioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BioViewController.h; sourceTree = "<group>"; };
+		8A723B4A148D572400015EE3 /* BioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BioViewController.m; sourceTree = "<group>"; };
+		8A723B4C148D5B7100015EE3 /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
+		8A723B4D148D5B7100015EE3 /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
+		8A723B50148D5DE600015EE3 /* Pride.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pride.xcdatamodel; sourceTree = "<group>"; };
+		8A723B52148D60F600015EE3 /* GCDSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDSingleton.h; sourceTree = "<group>"; };
+		8A723B53148D612700015EE3 /* AppGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppGlobals.h; sourceTree = "<group>"; };
+		8A723B54148D612800015EE3 /* AppGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppGlobals.m; sourceTree = "<group>"; };
+		8A723B95148D68CE00015EE3 /* Theologian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theologian.h; sourceTree = "<group>"; };
+		8A723B96148D68CE00015EE3 /* Theologian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theologian.m; sourceTree = "<group>"; };
+		8A723B98148D68CF00015EE3 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		8A723B99148D68CF00015EE3 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
+		8A723B9B148D68CF00015EE3 /* TheologianTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheologianTopic.h; sourceTree = "<group>"; };
+		8A723B9C148D68D000015EE3 /* TheologianTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheologianTopic.m; sourceTree = "<group>"; };
+		8A723BDB148D6C9900015EE3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8A723C91148D783A00015EE3 /* theologians.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = theologians.plist; sourceTree = "<group>"; };
+		8A723C93148D79E800015EE3 /* topics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = topics.plist; sourceTree = "<group>"; };
+		8A723C95148D7C4200015EE3 /* theologians_topics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = theologians_topics.plist; sourceTree = "<group>"; };
+		8A723C97148DC7CA00015EE3 /* augustine_button_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = augustine_button_selected.png; sourceTree = "<group>"; };
+		8A723C98148DC7CA00015EE3 /* augustine_button_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "augustine_button_selected@2x.png"; sourceTree = "<group>"; };
+		8A723C99148DC7CB00015EE3 /* augustine_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = augustine_button.png; sourceTree = "<group>"; };
+		8A723C9A148DC7CB00015EE3 /* augustine_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "augustine_button@2x.png"; sourceTree = "<group>"; };
+		8A723C9B148DC7CC00015EE3 /* malcolm_button_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = malcolm_button_selected.png; sourceTree = "<group>"; };
+		8A723C9C148DC7CD00015EE3 /* malcolm_button_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "malcolm_button_selected@2x.png"; sourceTree = "<group>"; };
+		8A723C9D148DC7CD00015EE3 /* malcolm_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = malcolm_button.png; sourceTree = "<group>"; };
+		8A723C9E148DC7CE00015EE3 /* malcolm_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "malcolm_button@2x.png"; sourceTree = "<group>"; };
+		8A723C9F148DC7CF00015EE3 /* neibuhr_button_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neibuhr_button_selected.png; sourceTree = "<group>"; };
+		8A723CA0148DC7CF00015EE3 /* neibuhr_button_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "neibuhr_button_selected@2x.png"; sourceTree = "<group>"; };
+		8A723CA1148DC7D300015EE3 /* neibuhr_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neibuhr_button.png; sourceTree = "<group>"; };
+		8A723CA2148DC7D400015EE3 /* neibuhr_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "neibuhr_button@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A723B05148D4A0C00015EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A723BDC148D6C9900015EE3 /* CoreData.framework in Frameworks */,
+				8A723B0D148D4A0C00015EE3 /* UIKit.framework in Frameworks */,
+				8A723B0F148D4A0C00015EE3 /* Foundation.framework in Frameworks */,
+				8A723B11148D4A0C00015EE3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A723AFD148D4A0C00015EE3 = {
+			isa = PBXGroup;
+			children = (
+				8A723B12148D4A0C00015EE3 /* Power of Pride */,
+				8A723B0B148D4A0C00015EE3 /* Frameworks */,
+				8A723B09148D4A0C00015EE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A723B09148D4A0C00015EE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A723B08148D4A0C00015EE3 /* Power of Pride.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A723B0B148D4A0C00015EE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A723BDB148D6C9900015EE3 /* CoreData.framework */,
+				8A723B10148D4A0C00015EE3 /* CoreGraphics.framework */,
+				8A723B0E148D4A0C00015EE3 /* Foundation.framework */,
+				8A723B0C148D4A0C00015EE3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A723B12148D4A0C00015EE3 /* Power of Pride */ = {
+			isa = PBXGroup;
+			children = (
+				8A723B1B148D4A0C00015EE3 /* AppDelegate.h */,
+				8A723B1C148D4A0C00015EE3 /* AppDelegate.m */,
+				8A723B53148D612700015EE3 /* AppGlobals.h */,
+				8A723B54148D612800015EE3 /* AppGlobals.m */,
+				8A723B37148D4B7D00015EE3 /* Universal */,
+				8A723B39148D4B8C00015EE3 /* iPhone */,
+				8A723B38148D4B8400015EE3 /* iPad */,
+				8A723C90148D77E400015EE3 /* Data */,
+				8A723B13148D4A0C00015EE3 /* Supporting Files */,
+			);
+			path = "Power of Pride";
+			sourceTree = "<group>";
+		};
+		8A723B13148D4A0C00015EE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A723B4F148D5DE500015EE3 /* Pride.xcdatamodeld */,
+				8A723B52148D60F600015EE3 /* GCDSingleton.h */,
+				8A723B14148D4A0C00015EE3 /* Power of Pride-Info.plist */,
+				8A723B15148D4A0C00015EE3 /* InfoPlist.strings */,
+				8A723B18148D4A0C00015EE3 /* main.m */,
+				8A723B1A148D4A0C00015EE3 /* Power of Pride-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A723B37148D4B7D00015EE3 /* Universal */ = {
+			isa = PBXGroup;
+			children = (
+				8A723B91148D674C00015EE3 /* Models */,
+				8A723B3D148D4BC900015EE3 /* Resources */,
+				8A723B3A148D4B9600015EE3 /* ViewControllers */,
+			);
+			name = Universal;
+			sourceTree = "<group>";
+		};
+		8A723B38148D4B8400015EE3 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8A723B21148D4A0D00015EE3 /* MainStoryboard_iPad.storyboard */,
+				8A723B3F148D4BD900015EE3 /* Resources */,
+				8A723B3C148D4BB600015EE3 /* ViewControllers */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		8A723B39148D4B8C00015EE3 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8A723B1E148D4A0D00015EE3 /* MainStoryboard_iPhone.storyboard */,
+				8A723B3E148D4BD200015EE3 /* Resources */,
+				8A723B3B148D4BAA00015EE3 /* ViewControllers */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		8A723B3A148D4B9600015EE3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A723B40148D4D0E00015EE3 /* AboutViewController.h */,
+				8A723B41148D4D0E00015EE3 /* AboutViewController.m */,
+				8A723B49148D572400015EE3 /* BioViewController.h */,
+				8A723B4A148D572400015EE3 /* BioViewController.m */,
+				8A723B46148D4D6600015EE3 /* MoreViewController.h */,
+				8A723B47148D4D6600015EE3 /* MoreViewController.m */,
+				8A723B24148D4A0D00015EE3 /* TheologiansViewController.h */,
+				8A723B25148D4A0D00015EE3 /* TheologiansViewController.m */,
+				8A723B2B148D4A0D00015EE3 /* TopicsViewController.h */,
+				8A723B2C148D4A0D00015EE3 /* TopicsViewController.m */,
+				8A723B4C148D5B7100015EE3 /* TopicViewController.h */,
+				8A723B4D148D5B7100015EE3 /* TopicViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8A723B3B148D4BAA00015EE3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8A723B3C148D4BB600015EE3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8A723B3D148D4BC900015EE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8A723B3E148D4BD200015EE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A723C97148DC7CA00015EE3 /* augustine_button_selected.png */,
+				8A723C99148DC7CB00015EE3 /* augustine_button.png */,
+				8A723C9B148DC7CC00015EE3 /* malcolm_button_selected.png */,
+				8A723C9D148DC7CD00015EE3 /* malcolm_button.png */,
+				8A723C9F148DC7CF00015EE3 /* neibuhr_button_selected.png */,
+				8A723CA1148DC7D300015EE3 /* neibuhr_button.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8A723B3F148D4BD900015EE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A723C98148DC7CA00015EE3 /* augustine_button_selected@2x.png */,
+				8A723C9A148DC7CB00015EE3 /* augustine_button@2x.png */,
+				8A723C9C148DC7CD00015EE3 /* malcolm_button_selected@2x.png */,
+				8A723C9E148DC7CE00015EE3 /* malcolm_button@2x.png */,
+				8A723CA0148DC7CF00015EE3 /* neibuhr_button_selected@2x.png */,
+				8A723CA2148DC7D400015EE3 /* neibuhr_button@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8A723B91148D674C00015EE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A723B9B148D68CF00015EE3 /* TheologianTopic.h */,
+				8A723B9C148D68D000015EE3 /* TheologianTopic.m */,
+				8A723B98148D68CF00015EE3 /* Topic.h */,
+				8A723B99148D68CF00015EE3 /* Topic.m */,
+				8A723B95148D68CE00015EE3 /* Theologian.h */,
+				8A723B96148D68CE00015EE3 /* Theologian.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8A723C90148D77E400015EE3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8A723C91148D783A00015EE3 /* theologians.plist */,
+				8A723C93148D79E800015EE3 /* topics.plist */,
+				8A723C95148D7C4200015EE3 /* theologians_topics.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A723B07148D4A0C00015EE3 /* Power of Pride */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A723B34148D4A0D00015EE3 /* Build configuration list for PBXNativeTarget "Power of Pride" */;
+			buildPhases = (
+				8A723B04148D4A0C00015EE3 /* Sources */,
+				8A723B05148D4A0C00015EE3 /* Frameworks */,
+				8A723B06148D4A0C00015EE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Power of Pride";
+			productName = "Power of Pride";
+			productReference = 8A723B08148D4A0C00015EE3 /* Power of Pride.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A723AFF148D4A0C00015EE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = AppCanny;
+			};
+			buildConfigurationList = 8A723B02148D4A0C00015EE3 /* Build configuration list for PBXProject "Power of Pride" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A723AFD148D4A0C00015EE3;
+			productRefGroup = 8A723B09148D4A0C00015EE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A723B07148D4A0C00015EE3 /* Power of Pride */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A723B06148D4A0C00015EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A723B17148D4A0C00015EE3 /* InfoPlist.strings in Resources */,
+				8A723B20148D4A0D00015EE3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8A723B23148D4A0D00015EE3 /* MainStoryboard_iPad.storyboard in Resources */,
+				8A723C92148D783A00015EE3 /* theologians.plist in Resources */,
+				8A723C94148D79E800015EE3 /* topics.plist in Resources */,
+				8A723C96148D7C4200015EE3 /* theologians_topics.plist in Resources */,
+				8A723CA3148DC7D500015EE3 /* augustine_button_selected.png in Resources */,
+				8A723CA4148DC7D500015EE3 /* augustine_button_selected@2x.png in Resources */,
+				8A723CA5148DC7D500015EE3 /* augustine_button.png in Resources */,
+				8A723CA6148DC7D500015EE3 /* augustine_button@2x.png in Resources */,
+				8A723CA7148DC7D500015EE3 /* malcolm_button_selected.png in Resources */,
+				8A723CA8148DC7D500015EE3 /* malcolm_button_selected@2x.png in Resources */,
+				8A723CA9148DC7D500015EE3 /* malcolm_button.png in Resources */,
+				8A723CAA148DC7D500015EE3 /* malcolm_button@2x.png in Resources */,
+				8A723CAB148DC7D500015EE3 /* neibuhr_button_selected.png in Resources */,
+				8A723CAC148DC7D500015EE3 /* neibuhr_button_selected@2x.png in Resources */,
+				8A723CAD148DC7D500015EE3 /* neibuhr_button.png in Resources */,
+				8A723CAE148DC7D500015EE3 /* neibuhr_button@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A723B04148D4A0C00015EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A723B19148D4A0C00015EE3 /* main.m in Sources */,
+				8A723B1D148D4A0C00015EE3 /* AppDelegate.m in Sources */,
+				8A723B26148D4A0D00015EE3 /* TheologiansViewController.m in Sources */,
+				8A723B2D148D4A0D00015EE3 /* TopicsViewController.m in Sources */,
+				8A723B43148D4D0E00015EE3 /* AboutViewController.m in Sources */,
+				8A723B48148D4D6600015EE3 /* MoreViewController.m in Sources */,
+				8A723B4B148D572500015EE3 /* BioViewController.m in Sources */,
+				8A723B4E148D5B7100015EE3 /* TopicViewController.m in Sources */,
+				8A723B51148D5DE700015EE3 /* Pride.xcdatamodeld in Sources */,
+				8A723B55148D612800015EE3 /* AppGlobals.m in Sources */,
+				8A723B97148D68CE00015EE3 /* Theologian.m in Sources */,
+				8A723B9A148D68CF00015EE3 /* Topic.m in Sources */,
+				8A723B9D148D68D000015EE3 /* TheologianTopic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A723B15148D4A0C00015EE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A723B16148D4A0C00015EE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A723B1E148D4A0D00015EE3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A723B1F148D4A0D00015EE3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8A723B21148D4A0D00015EE3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A723B22148D4A0D00015EE3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A723B32148D4A0D00015EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A723B33148D4A0D00015EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A723B35148D4A0D00015EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Power of Pride/Power of Pride-Prefix.pch";
+				INFOPLIST_FILE = "Power of Pride/Power of Pride-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A723B36148D4A0D00015EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Power of Pride/Power of Pride-Prefix.pch";
+				INFOPLIST_FILE = "Power of Pride/Power of Pride-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A723B02148D4A0C00015EE3 /* Build configuration list for PBXProject "Power of Pride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A723B32148D4A0D00015EE3 /* Debug */,
+				8A723B33148D4A0D00015EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A723B34148D4A0D00015EE3 /* Build configuration list for PBXNativeTarget "Power of Pride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A723B35148D4A0D00015EE3 /* Debug */,
+				8A723B36148D4A0D00015EE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A723B4F148D5DE500015EE3 /* Pride.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A723B50148D5DE600015EE3 /* Pride.xcdatamodel */,
+			);
+			currentVersion = 8A723B50148D5DE600015EE3 /* Pride.xcdatamodel */;
+			path = Pride.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A723AFF148D4A0C00015EE3 /* Project object */;
+}
