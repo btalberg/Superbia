@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AboutViewController : UIViewController
+@interface AboutViewController : UIViewController {
+    UIScrollView *mScrollView;
+}
+
+@property (strong, nonatomic) IBOutlet UIScrollView *mScrollView;
 
 @end

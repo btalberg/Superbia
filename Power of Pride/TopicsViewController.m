@@ -8,11 +8,12 @@
 
 #import "AppGlobals.h"
 #import "TopicsViewController.h"
+#import "TopicViewController.h"
 #import "Topic.h"
 
 @implementation TopicsViewController
 
-@synthesize mPicker, mTopics;
+@synthesize mPicker, mTopics, mRow;
 
 - (void)didReceiveMemoryWarning
 {
@@ -32,20 +33,15 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+
+    self.mPicker = nil;
 }
 
 #pragma mark - Device rotation
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    } else {
-        return YES;
-    }
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 #pragma mark - Picker View Delegate
@@ -67,7 +63,18 @@
 
 - (void)pickerView:(UIPickerView *)thePickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
     
-    NSLog(@"Selected Color: %@. Index of selected color: %i", [[mTopics objectAtIndex:row] name], row);
+    self.mRow = row;
 }
+
+#pragma mark - Seque Transition
+
+// This will get called too before the view appears
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get destination view
+    TopicViewController *topicViewController = [segue destinationViewController];
+    [topicViewController setMTopic:[mTopics objectAtIndex:mRow]];
+}
+
 
 @end

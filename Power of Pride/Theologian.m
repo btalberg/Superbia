@@ -14,8 +14,10 @@
 NSString *const THEOLOGIAN_MODEL_NAME = @"Theologian";
 
 @dynamic name;
-@dynamic born;
-@dynamic died;
+@dynamic cityborn;
+@dynamic citydied;
+@dynamic dateborn;
+@dynamic datedied;
 @dynamic bio;
 @dynamic themes;
 @dynamic theologianTopics;
@@ -63,5 +65,17 @@ NSString *const THEOLOGIAN_MODEL_NAME = @"Theologian";
     return [self fetchInContext:context withName:@"Malcolm X"];
 }
 
+- (UIImage *) avatar
+{
+    if ([self.name isEqualToString:@"Augustine of Hippo"]) {
+        return [UIImage imageNamed: @"augustine_avatar.png"];
+    } else if ([self.name isEqualToString:@"Reinhold Niebuhr"]) {
+        return [UIImage imageNamed: @"niebuhr_avatar.png"];
+    } else if ([self.name isEqualToString:@"Malcolm X"]) {
+        return [UIImage imageNamed: @"malcolm_avatar.png"];
+    } else {
+        return nil;
+    }
+}
 
 @end

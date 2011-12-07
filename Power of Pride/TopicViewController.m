@@ -6,9 +6,14 @@
 //  Copyright (c) 2011 AppCanny. All rights reserved.
 //
 
+#import "Theologian.h"
+#import "TheologianTopic.h"
 #import "TopicViewController.h"
+#import "ViewHelper.h"
 
 @implementation TopicViewController
+
+@synthesize mTopic, mScrollView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -19,6 +24,46 @@
     return self;
 }
 
+
+#pragma mark - View lifecycle
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    self.title = [NSString stringWithFormat:@"On %@", mTopic.name];
+    
+    CGFloat xPos = 20.0f;
+    CGFloat viewMargin = 10.0f;
+    
+    NSArray *thelogiansTopics = [[mTopic theologianTopics] allObjects];
+    
+    for (int ii=0; ii < [thelogiansTopics count]; ii++) {
+        Theologian *theologian = [(TheologianTopic *)[thelogiansTopics objectAtIndex:ii] theologian];
+        UILabel *header = [ViewHelper createHeader:[theologian name]];
+        UITextView *textView = 
+            [ViewHelper createContent:[[thelogiansTopics objectAtIndex:ii] position]];
+        
+        [self.mScrollView addSubview:header];
+        [header setFrame:CGRectMake(10.0f, xPos, 300.0f, 20.0f)];
+        xPos += header.frame.size.height + viewMargin;
+        
+        [self.mScrollView addSubview:textView];
+        [textView setFrame:CGRectMake(10.0f, xPos, 300.0f, textView.contentSize.height)];
+        xPos += textView.contentSize.height + viewMargin;
+    }
+    
+    self.mScrollView.contentSize = CGSizeMake(320.0f, xPos);
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+
+    self.mScrollView = nil;
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
@@ -27,34 +72,12 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-#pragma mark - View lifecycle
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView
-{
-}
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-*/
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
+#pragma mark - Device rotation
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-	return YES;
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 @end

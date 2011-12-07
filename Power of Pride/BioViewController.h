@@ -14,14 +14,21 @@
     Theologian *mTheologian;
     
     @private
-    UILabel *mNameField;
-    UILabel *mDateField;
+    UILabel *mDateBornField;
+    UILabel *mCityBornField;
+    UILabel *mDateDiedField;
+    UILabel *mCityDiedField;
     UIImageView *mImageField;
+    UIScrollView *mScrollView;
 }
 
 @property (strong, nonatomic) Theologian *mTheologian;
-@property (strong, nonatomic) IBOutlet UILabel *mNameField;
-@property (strong, nonatomic) IBOutlet UILabel *mDateField;
+
 @property (strong, nonatomic) IBOutlet UIImageView *mImageField;
+@property (strong, nonatomic) IBOutlet UILabel *mDateBornField;
+@property (strong, nonatomic) IBOutlet UILabel *mDateDiedField;
+@property (strong, nonatomic) IBOutlet UILabel *mCityBornField;
+@property (strong, nonatomic) IBOutlet UILabel *mCityDiedField;
+@property (strong, nonatomic) IBOutlet UIScrollView *mScrollView;
 
 @end

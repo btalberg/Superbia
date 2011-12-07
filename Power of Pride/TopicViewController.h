@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Topic.h"
 
-@interface TopicViewController : UIViewController
+@interface TopicViewController : UIViewController{
+    @public
+    Topic *mTopic;
+    
+    @private
+    UIScrollView *mScrollView;
+}
+
+@property (strong, nonatomic) Topic *mTopic;
+@property (strong, nonatomic) IBOutlet UIScrollView *mScrollView;
 
 @end

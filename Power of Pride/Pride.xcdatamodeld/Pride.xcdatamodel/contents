@@ -2,8 +2,10 @@
 <model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Theologian" representedClassName="Theologian" syncable="YES">
         <attribute name="bio" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="born" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="died" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cityborn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="citydied" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateborn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="datedied" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="themes" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="theologianTopics" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TheologianTopic" inverseName="theologian" inverseEntity="TheologianTopic" syncable="YES"/>
@@ -18,8 +20,8 @@
         <relationship name="theologianTopics" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TheologianTopic" inverseName="topic" inverseEntity="TheologianTopic" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Theologian" positionX="-90" positionY="153" width="128" height="135"/>
-        <element name="Topic" positionX="232" positionY="189" width="128" height="75"/>
+        <element name="Theologian" positionX="-90" positionY="153" width="128" height="165"/>
         <element name="TheologianTopic" positionX="63" positionY="189" width="128" height="90"/>
+        <element name="Topic" positionX="232" positionY="189" width="128" height="75"/>
     </elements>
 </model>

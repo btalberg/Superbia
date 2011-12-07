@@ -15,4 +15,6 @@
 
 @property (strong, nonatomic) IBOutlet UIPickerView *mPicker;
 @property (strong, nonatomic) NSArray *mTopics;
+@property (nonatomic) NSInteger mRow;
+
 @end

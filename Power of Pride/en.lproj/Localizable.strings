@@ -1,0 +1,38 @@
+/* 
+  Pride.strings
+  Power of Pride
+
+  Created by Ben Talberg on 12/6/11.
+  Copyright (c) 2011 AppCanny. All rights reserved.
+*/
+
+"AboutView_AboutText" = 
+"Augustine and Niebuhr share many commonalities in their thinking. A central issue they focus on is human nature, and human nature's inability to avoid sin. They root their concept of sin in pride and sensuality. Their concept of sin has greatly impacted modern culture, the way we think, the way we act, the way we understand the divine. Their thoughts alone are valuable, to students, to thinkers, even to modern situations as the nations of the world tredge forward. However, their framework of sin can also be dangerous, and has had a devastating impact on millions of people.
+
+Specific to the United States, those implicated have been women and black people. In a society in which a person is admonished for pursuing a sense of pride, the oppressed have no way out. Malcolm X implicitly offers a powerful critique of Augustine and Niebuhr. A theologican himself, Malcolm saw a danger in the lack of pride. He was a product of the injust society these thinker's orthodoxic views had created. And he argued powerfully for a way out amongst the oppressed.";
+
+"AboutView_InspirationText" = 
+"This application is the product of a graduate program assignment.
+
+Seminary: Chicago Theological Seminary
+Instructor: Dr. JoAnne Terrell
+Class: TEC-504, Augustine, Niebuhr, & Malcolm X, Fall 2011
+
+Course focus is to review and reflect on the concepts of Augustine, Reinhold Niebuhr, and Malcolm X.  Specifically how Malcolm's words offer criticism against traditonal concepts of sin and pride.";
+
+"AboutView_SourcesText" = 
+"Lecture content as delivered by Dr. JoAnne Terrell, Fall 2011
+
+http://en.wikipedia.org/wiki/Malcolm_x
+
+http://en.wikipedia.org/wiki/Augustine_of_Hippo
+
+http://en.wikipedia.org/wiki/Reinhold_Niebuhr
+
+Saint Augustine of Hippo's - City of God
+
+James H. Cone.  Martin and Malcolm and America: A Dream or Nightmare. Maryknoll: Orbis Books, 1991
+
+Malcom X. The Autobiography of Malcolm X as told by Alex Haley. New York: Ballantine Publishing, 1965
+
+Larry Rasmussen.  Reinhold niebuhr: Theologian of Public Life.  Minneapolis: Fortress Books, 1991";
