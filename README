@@ -1,0 +1,6 @@
+Project build in December, 2011
+
+Xcode 4.2, iOS 5.0.1
+
+Fairly simple application, uses coredata, ARC, singleton, reachability, and storyboards.
+
