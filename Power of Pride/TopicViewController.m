@@ -33,8 +33,22 @@
 
     self.title = [NSString stringWithFormat:@"On %@", mTopic.name];
     
-    CGFloat xPos = 20.0f;
-    CGFloat viewMargin = 10.0f;
+    CGFloat xPos;
+    CGFloat viewMargin;
+    CGFloat headerHeight;
+    
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        xPos = 20.0f;
+        viewMargin = 10.0f;
+        headerHeight = 20.0f;
+    } else {
+        xPos = 40.0f;
+        viewMargin = 20.0f;
+        headerHeight = 40.0f;
+    }
+    
+    CGFloat objectWidth = self.view.frame.size.width - (2 * viewMargin);
+    
     
     NSArray *thelogiansTopics = [[mTopic theologianTopics] allObjects];
     
@@ -42,18 +56,18 @@
         Theologian *theologian = [(TheologianTopic *)[thelogiansTopics objectAtIndex:ii] theologian];
         UILabel *header = [ViewHelper createHeader:[theologian name]];
         UITextView *textView = 
-            [ViewHelper createContent:[[thelogiansTopics objectAtIndex:ii] position]];
+        [ViewHelper createContent:[[thelogiansTopics objectAtIndex:ii] position] objectWidth:objectWidth];
         
         [self.mScrollView addSubview:header];
-        [header setFrame:CGRectMake(10.0f, xPos, 300.0f, 20.0f)];
+        [header setFrame:CGRectMake(viewMargin, xPos, objectWidth, headerHeight)];
         xPos += header.frame.size.height + viewMargin;
         
         [self.mScrollView addSubview:textView];
-        [textView setFrame:CGRectMake(10.0f, xPos, 300.0f, textView.contentSize.height)];
+        [textView setFrame:CGRectMake(viewMargin, xPos, objectWidth, textView.contentSize.height)];
         xPos += textView.contentSize.height + viewMargin;
     }
     
-    self.mScrollView.contentSize = CGSizeMake(320.0f, xPos);
+    self.mScrollView.contentSize = CGSizeMake(self.view.frame.size.width, xPos);
 }
 
 - (void)viewDidUnload

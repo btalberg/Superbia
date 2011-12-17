@@ -8,7 +8,7 @@
 		<key>topic</key>
 		<string>God</string>
 		<key>position</key>
-		<string>s</string>
+		<string>Augustine attributes complete sovereignty to God. God is all powerful and all good. These traits are unchanging, as God is unchangeable.</string>
 	</dict>
 	<dict>
 		<key>theologian</key>
@@ -16,7 +16,7 @@
 		<key>topic</key>
 		<string>Humanity</string>
 		<key>position</key>
-		<string>s</string>
+		<string>Augustine believed all things created were essentially good. In his Enchiridion on Faith he wrote, &quot;all things are good…but since they are not supremely and unchangeably good like their creator, in them goodness can be decreased and increased&quot;. Augustine believed humanity inherited a diseased will from the fall of Adam and Eve. Mankind&apos;s perverted will led to an arrogation of all that was good to self, termed by Augustine as &apos;concupiscence&apos;. Augustine argued the right response to the tendency of the diseased will was faith in God.</string>
 	</dict>
 	<dict>
 		<key>theologian</key>
@@ -24,7 +24,7 @@
 		<key>topic</key>
 		<string>Redemption</string>
 		<key>position</key>
-		<string>s</string>
+		<string>The sacraments played an important role in redemption. Baptism freed people from original sin, and penance was a means of forgiveness for those sins committed through further evil actions (concupiscence). Most importantly, Augustine believed in order to eschew sin, individuals had to adopt faith in God. Faith in God was the only means by which the will could work in God&apos;s favor.</string>
 	</dict>
 	<dict>
 		<key>theologian</key>
@@ -32,7 +32,7 @@
 		<key>topic</key>
 		<string>God</string>
 		<key>position</key>
-		<string>t</string>
+		<string>Niebuhr&apos;s concepts are linked closely to Augustine&apos;s concepts. Again God is sovereign, completely good and powerful. But for Niebuhr, God models power through the disavowal of power. Niebuhr saw this modeled in Christ. Christ also reveals the depth of God&apos;s interest in humanity, and the depth of God&apos;s love. God&apos;s interest and love for humanity led Niebuhr to believe God delighted in humanity.</string>
 	</dict>
 	<dict>
 		<key>theologian</key>
@@ -40,7 +40,7 @@
 		<key>topic</key>
 		<string>Humanity</string>
 		<key>position</key>
-		<string>t</string>
+		<string>Again, like Augustine, Niebuhr believed humanity had a diseased will, passed down through the fall of Adam and Eve. Pride dominated the human, in several ways. Either as pride of power, an attempt of mastery over self against all vicissitudes, pride of knowledge, an ignorance of divine truth, or pride of virtue, an understanding that humanity is capable of constructing a perfectly righteous morality on its own. Another form of pride Niebuhr attributes to humanity is the pride of sensuality, closely associated to Augustine&apos;s concept of concupiscence. Essentially, Niebuhr believed the pride of humanity led to a sense of disillusionment about self, or led to the eschewing of divine duty by descending into self. Finally, Niebuhr argued that all were equally responsible for their sin, but that due to social class hierarchies, not all were equally guilty of the sin they perpetrated.</string>
 	</dict>
 	<dict>
 		<key>theologian</key>
@@ -48,7 +48,7 @@
 		<key>topic</key>
 		<string>Redemption</string>
 		<key>position</key>
-		<string>t</string>
+		<string>For Niebuhr, sin ended in the rejection of human systems and the acceptance of agape, the love of others over self. Redemption could be found in what Niebuhr called Christian realism. This realism suggested all right concepts of power, all forms of justice, and true knowledge, were to be drawn from God. Niebuhr essentially called humanity to disavow its power, similar to how Christ modeled truly divine power. More exactly, Niebuhr believed mankind incapable of perfection. Christian realism acknowledged this imperfection, in turn rejecting concepts of utopianism and idealism.</string>
 	</dict>
 	<dict>
 		<key>theologian</key>
@@ -56,7 +56,7 @@
 		<key>topic</key>
 		<string>God</string>
 		<key>position</key>
-		<string>r</string>
+		<string>Malcolm believed that Allah was deeply and profoundly interested in the oppressed, the despised. He argued that black people were made in God&apos;s image, and because of this should pursue the power and sense of pride one made in the image of God rightly deserves.</string>
 	</dict>
 	<dict>
 		<key>theologian</key>
@@ -64,7 +64,7 @@
 		<key>topic</key>
 		<string>Humanity</string>
 		<key>position</key>
-		<string>r</string>
+		<string>Malcolm saw a lack of pride amongst the Godly, the oppressed. Sin was modeled by those who dehumanized others, who dehumanized God&apos;s creation. More, it was perpetrated whenever one person caused another to harm themselves or look disapprovingly upon themselves.</string>
 	</dict>
 	<dict>
 		<key>theologian</key>
@@ -72,7 +72,7 @@
 		<key>topic</key>
 		<string>Redemption</string>
 		<key>position</key>
-		<string>r</string>
+		<string>Malcolm argued that redemption came through pride, a complete reversal of Augustine and Niebuhr&apos;s thoughts. His thinking spoke to the condition of the oppressed, who under orthodox systems had no opportunity for redemption as they could not pursue the power from which they could raise themselves out of their plight.</string>
 	</dict>
 </array>
 </plist>

@@ -31,46 +31,58 @@
 {
     [super viewDidLoad];
     
-    CGFloat xPos = 20.0f;
-    CGFloat viewMargin = 10.0f;
+    CGFloat xPos;
+    CGFloat viewMargin;
+    CGFloat headerHeight;
     
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        xPos = 20.0f;
+        viewMargin = 10.0f;
+        headerHeight = 20.0f;
+    } else {
+        xPos = 40.0f;
+        viewMargin = 20.0f;
+        headerHeight = 40.0f;
+    }
+    
+    CGFloat objectWidth = self.view.frame.size.width - (2 * viewMargin);
     
     UILabel *aboutHeader = [ViewHelper createHeader:@"About"];
     UILabel *inspirationHeader = [ViewHelper createHeader:@"Inspiration"];
     UILabel *sourcesHeader = [ViewHelper createHeader:@"Sources"];
     
     UITextView *aboutTextView = 
-        [ViewHelper createContent:NSLocalizedString(@"AboutView_AboutText", @"")];
+    [ViewHelper createContent:NSLocalizedString(@"AboutView_AboutText", @"") objectWidth:objectWidth];
     UITextView *inspirationTextView = 
-        [ViewHelper createContent:NSLocalizedString(@"AboutView_InspirationText", @"")];
+        [ViewHelper createContent:NSLocalizedString(@"AboutView_InspirationText", @"") objectWidth:objectWidth];
     UITextView *sourcesTextView = 
-        [ViewHelper createContent:NSLocalizedString(@"AboutView_SourcesText", @"")];
+        [ViewHelper createContent:NSLocalizedString(@"AboutView_SourcesText", @"") objectWidth:objectWidth];
     
     [self.mScrollView addSubview:aboutHeader];
-    [aboutHeader setFrame:CGRectMake(10.0f, xPos, 300.0f, 20.0f)];
+    [aboutHeader setFrame:CGRectMake(viewMargin, xPos, objectWidth, headerHeight)];
     xPos += aboutHeader.frame.size.height + viewMargin;
  
     [self.mScrollView addSubview:aboutTextView];
-    [aboutTextView setFrame:CGRectMake(10.0f, xPos, 300.0f, aboutTextView.contentSize.height)];
+    [aboutTextView setFrame:CGRectMake(viewMargin, xPos, objectWidth, aboutTextView.contentSize.height)];
     xPos += aboutTextView.contentSize.height + viewMargin;
     
     [self.mScrollView addSubview:inspirationHeader];
-    [inspirationHeader setFrame:CGRectMake(10.0f, xPos, 300.0f, 20.0f)];
+    [inspirationHeader setFrame:CGRectMake(viewMargin, xPos, objectWidth, headerHeight)];
     xPos += inspirationHeader.frame.size.height + viewMargin;
     
     [self.mScrollView addSubview:inspirationTextView];
-    [inspirationTextView setFrame:CGRectMake(10.0f, xPos, 300.0f, inspirationTextView.contentSize.height)];
+    [inspirationTextView setFrame:CGRectMake(viewMargin, xPos, objectWidth, inspirationTextView.contentSize.height)];
     xPos += inspirationTextView.contentSize.height + viewMargin;
     
     [self.mScrollView addSubview:sourcesHeader];
-    [sourcesHeader setFrame:CGRectMake(10.0f, xPos, 300.0f, 20.0f)];
+    [sourcesHeader setFrame:CGRectMake(viewMargin, xPos, objectWidth, headerHeight)];
     xPos += sourcesHeader.frame.size.height + viewMargin;
 
     [self.mScrollView addSubview:sourcesTextView];
-    [sourcesTextView setFrame:CGRectMake(10.0f, xPos, 300.0f, sourcesTextView.contentSize.height)];
+    [sourcesTextView setFrame:CGRectMake(viewMargin, xPos, objectWidth, sourcesTextView.contentSize.height)];
     xPos += sourcesTextView.contentSize.height + viewMargin;
     
-    self.mScrollView.contentSize = CGSizeMake(320.0f, xPos);
+    self.mScrollView.contentSize = CGSizeMake(self.view.frame.size.width, xPos);
 }
 
 - (void)viewDidUnload

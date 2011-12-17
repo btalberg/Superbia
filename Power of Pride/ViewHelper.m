@@ -23,17 +23,25 @@
     return header;
 }
 
-+ (UITextView *) createContent:(NSString *)text
++ (UITextView *) createContent:(NSString *)text objectWidth:(CGFloat)width
 {
     UIFont *contentFont = [UIFont systemFontOfSize:16.0];
     
-    UITextView *textField = [[UITextView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 300.0f, 0.0f)];
+    UITextView *textField = [[UITextView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, width, 0.0f)];
     textField.editable = NO;
     textField.font = contentFont;
     textField.text = text;
     textField.scrollEnabled = NO;
     
     return textField;
+}
+
++ (UIButton *) createButton:(NSString *)text withResource:(NSString *)resource
+{
+    UIButton *remoteButton = [[UIButton alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 0.0f, 0.0f)];
+    [remoteButton setTitle:text forState:UIControlStateNormal];
+    
+    return remoteButton;
 }
 
 @end

@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A2673151498709000493637 /* MoreImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2673141498709000493637 /* MoreImageViewCell.m */; };
+		8A26739E149889A200493637 /* enchiridion_artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A267394149889A200493637 /* enchiridion_artwork.png */; };
+		8A26739F149889A200493637 /* enchiridion_artwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A267395149889A200493637 /* enchiridion_artwork@2x.png */; };
+		8A2673A0149889A200493637 /* malcolm_ballot_artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A267396149889A200493637 /* malcolm_ballot_artwork.png */; };
+		8A2673A1149889A200493637 /* malcolm_ballot_artwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A267397149889A200493637 /* malcolm_ballot_artwork@2x.png */; };
+		8A2673A2149889A200493637 /* malcolm_hate_yourself_artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A267398149889A200493637 /* malcolm_hate_yourself_artwork.png */; };
+		8A2673A3149889A200493637 /* malcolm_hate_yourself_artwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A267399149889A200493637 /* malcolm_hate_yourself_artwork@2x.png */; };
+		8A2673A4149889A200493637 /* malcolm_oxford_artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A26739A149889A200493637 /* malcolm_oxford_artwork.png */; };
+		8A2673A5149889A200493637 /* malcolm_oxford_artwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A26739B149889A200493637 /* malcolm_oxford_artwork@2x.png */; };
+		8A2673A6149889A200493637 /* malcom_miseducation_artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A26739C149889A200493637 /* malcom_miseducation_artwork.png */; };
+		8A2673A7149889A200493637 /* malcom_miseducation_artwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A26739D149889A200493637 /* malcom_miseducation_artwork@2x.png */; };
+		8A2673AA14988F1900493637 /* niebuhr_on_being_artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2673A814988F1900493637 /* niebuhr_on_being_artwork.png */; };
+		8A2673AB14988F1900493637 /* niebuhr_on_being_artwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2673A914988F1900493637 /* niebuhr_on_being_artwork@2x.png */; };
+		8A2673E91498E53B00493637 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2673E71498E53B00493637 /* Icon.png */; };
+		8A2673EA1498E53B00493637 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2673E81498E53B00493637 /* Icon@2x.png */; };
 		8A723B0D148D4A0C00015EE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A723B0C148D4A0C00015EE3 /* UIKit.framework */; };
 		8A723B0F148D4A0C00015EE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A723B0E148D4A0C00015EE3 /* Foundation.framework */; };
 		8A723B11148D4A0C00015EE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A723B10148D4A0C00015EE3 /* CoreGraphics.framework */; };
@@ -48,11 +63,44 @@
 		8A723CC0148E990E00015EE3 /* malcolm_avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723CBA148E990E00015EE3 /* malcolm_avatar@2x.png */; };
 		8A723CC1148E990E00015EE3 /* niebuhr_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723CBB148E990E00015EE3 /* niebuhr_avatar.png */; };
 		8A723CC2148E990E00015EE3 /* niebuhr_avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A723CBC148E990E00015EE3 /* niebuhr_avatar@2x.png */; };
+		8A7426C3149C030A00F912CF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7426C2149C030A00F912CF /* Reachability.m */; };
+		8ADE6F97149C0A0B000F3C95 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ADE6F96149C0A0B000F3C95 /* SystemConfiguration.framework */; };
+		8ADE6F9A149C1071000F3C95 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ADE6F99149C1071000F3C95 /* MediaPlayer.framework */; };
+		8ADE6F9D149C2505000F3C95 /* MoreWebViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE6F9C149C2505000F3C95 /* MoreWebViewCell.m */; };
+		8ADE6FA0149C3795000F3C95 /* cityofgod_artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6F9E149C3795000F3C95 /* cityofgod_artwork.png */; };
+		8ADE6FA1149C3795000F3C95 /* cityofgod_artwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6F9F149C3795000F3C95 /* cityofgod_artwork@2x.png */; };
+		8ADE6FB4149C4615000F3C95 /* tabbar_about_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6FAE149C4615000F3C95 /* tabbar_about_icon.png */; };
+		8ADE6FB5149C4615000F3C95 /* tabbar_about_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6FAF149C4615000F3C95 /* tabbar_about_icon@2x.png */; };
+		8ADE6FB6149C4615000F3C95 /* tabbar_theologians_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6FB0149C4615000F3C95 /* tabbar_theologians_icon.png */; };
+		8ADE6FB7149C4615000F3C95 /* tabbar_theologians_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6FB1149C4615000F3C95 /* tabbar_theologians_icon@2x.png */; };
+		8ADE6FB8149C4615000F3C95 /* tabbar_topics_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6FB2149C4615000F3C95 /* tabbar_topics_icon.png */; };
+		8ADE6FB9149C4615000F3C95 /* tabbar_topics_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6FB3149C4615000F3C95 /* tabbar_topics_icon@2x.png */; };
+		8ADE6FBC149C4BFD000F3C95 /* tabbar_more_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6FBA149C4BFD000F3C95 /* tabbar_more_icon.png */; };
+		8ADE6FBD149C4BFD000F3C95 /* tabbar_more_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6FBB149C4BFD000F3C95 /* tabbar_more_icon@2x.png */; };
+		8ADE6FFC149C7F9C000F3C95 /* Default-Portrait~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6FF9149C7F9C000F3C95 /* Default-Portrait~iPad.png */; };
+		8ADE6FFD149C7F9C000F3C95 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6FFA149C7F9C000F3C95 /* Default.png */; };
+		8ADE6FFE149C7F9C000F3C95 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE6FFB149C7F9C000F3C95 /* Default@2x.png */; };
 		8AF17F86148F29CF00085C9C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AF17F88148F29CF00085C9C /* Localizable.strings */; };
 		8AF17F8D148F38FD00085C9C /* ViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF17F8C148F38FD00085C9C /* ViewHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A2673131498708E00493637 /* MoreImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreImageViewCell.h; sourceTree = "<group>"; };
+		8A2673141498709000493637 /* MoreImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreImageViewCell.m; sourceTree = "<group>"; };
+		8A267394149889A200493637 /* enchiridion_artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enchiridion_artwork.png; sourceTree = "<group>"; };
+		8A267395149889A200493637 /* enchiridion_artwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enchiridion_artwork@2x.png"; sourceTree = "<group>"; };
+		8A267396149889A200493637 /* malcolm_ballot_artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = malcolm_ballot_artwork.png; sourceTree = "<group>"; };
+		8A267397149889A200493637 /* malcolm_ballot_artwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "malcolm_ballot_artwork@2x.png"; sourceTree = "<group>"; };
+		8A267398149889A200493637 /* malcolm_hate_yourself_artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = malcolm_hate_yourself_artwork.png; sourceTree = "<group>"; };
+		8A267399149889A200493637 /* malcolm_hate_yourself_artwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "malcolm_hate_yourself_artwork@2x.png"; sourceTree = "<group>"; };
+		8A26739A149889A200493637 /* malcolm_oxford_artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = malcolm_oxford_artwork.png; sourceTree = "<group>"; };
+		8A26739B149889A200493637 /* malcolm_oxford_artwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "malcolm_oxford_artwork@2x.png"; sourceTree = "<group>"; };
+		8A26739C149889A200493637 /* malcom_miseducation_artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = malcom_miseducation_artwork.png; sourceTree = "<group>"; };
+		8A26739D149889A200493637 /* malcom_miseducation_artwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "malcom_miseducation_artwork@2x.png"; sourceTree = "<group>"; };
+		8A2673A814988F1900493637 /* niebuhr_on_being_artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niebuhr_on_being_artwork.png; sourceTree = "<group>"; };
+		8A2673A914988F1900493637 /* niebuhr_on_being_artwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "niebuhr_on_being_artwork@2x.png"; sourceTree = "<group>"; };
+		8A2673E71498E53B00493637 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8A2673E81498E53B00493637 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		8A723B08148D4A0C00015EE3 /* Power of Pride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power of Pride.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A723B0C148D4A0C00015EE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8A723B0E148D4A0C00015EE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,6 +157,25 @@
 		8A723CBA148E990E00015EE3 /* malcolm_avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "malcolm_avatar@2x.png"; sourceTree = "<group>"; };
 		8A723CBB148E990E00015EE3 /* niebuhr_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niebuhr_avatar.png; sourceTree = "<group>"; };
 		8A723CBC148E990E00015EE3 /* niebuhr_avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "niebuhr_avatar@2x.png"; sourceTree = "<group>"; };
+		8A7426C1149C030A00F912CF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8A7426C2149C030A00F912CF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8ADE6F96149C0A0B000F3C95 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8ADE6F99149C1071000F3C95 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		8ADE6F9B149C2504000F3C95 /* MoreWebViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreWebViewCell.h; sourceTree = "<group>"; };
+		8ADE6F9C149C2505000F3C95 /* MoreWebViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreWebViewCell.m; sourceTree = "<group>"; };
+		8ADE6F9E149C3795000F3C95 /* cityofgod_artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cityofgod_artwork.png; sourceTree = "<group>"; };
+		8ADE6F9F149C3795000F3C95 /* cityofgod_artwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cityofgod_artwork@2x.png"; sourceTree = "<group>"; };
+		8ADE6FAE149C4615000F3C95 /* tabbar_about_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_about_icon.png; sourceTree = "<group>"; };
+		8ADE6FAF149C4615000F3C95 /* tabbar_about_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_about_icon@2x.png"; sourceTree = "<group>"; };
+		8ADE6FB0149C4615000F3C95 /* tabbar_theologians_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_theologians_icon.png; sourceTree = "<group>"; };
+		8ADE6FB1149C4615000F3C95 /* tabbar_theologians_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_theologians_icon@2x.png"; sourceTree = "<group>"; };
+		8ADE6FB2149C4615000F3C95 /* tabbar_topics_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_topics_icon.png; sourceTree = "<group>"; };
+		8ADE6FB3149C4615000F3C95 /* tabbar_topics_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_topics_icon@2x.png"; sourceTree = "<group>"; };
+		8ADE6FBA149C4BFD000F3C95 /* tabbar_more_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_more_icon.png; sourceTree = "<group>"; };
+		8ADE6FBB149C4BFD000F3C95 /* tabbar_more_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_more_icon@2x.png"; sourceTree = "<group>"; };
+		8ADE6FF9149C7F9C000F3C95 /* Default-Portrait~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~iPad.png"; sourceTree = "<group>"; };
+		8ADE6FFA149C7F9C000F3C95 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8ADE6FFB149C7F9C000F3C95 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8AF17F87148F29CF00085C9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8AF17F8B148F38FD00085C9C /* ViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewHelper.h; sourceTree = "<group>"; };
 		8AF17F8C148F38FD00085C9C /* ViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewHelper.m; sourceTree = "<group>"; };
@@ -119,6 +186,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ADE6F9A149C1071000F3C95 /* MediaPlayer.framework in Frameworks */,
+				8ADE6F97149C0A0B000F3C95 /* SystemConfiguration.framework in Frameworks */,
 				8A723BDC148D6C9900015EE3 /* CoreData.framework in Frameworks */,
 				8A723B0D148D4A0C00015EE3 /* UIKit.framework in Frameworks */,
 				8A723B0F148D4A0C00015EE3 /* Foundation.framework in Frameworks */,
@@ -152,6 +221,8 @@
 				8A723BDB148D6C9900015EE3 /* CoreData.framework */,
 				8A723B10148D4A0C00015EE3 /* CoreGraphics.framework */,
 				8A723B0E148D4A0C00015EE3 /* Foundation.framework */,
+				8ADE6F99149C1071000F3C95 /* MediaPlayer.framework */,
+				8ADE6F96149C0A0B000F3C95 /* SystemConfiguration.framework */,
 				8A723B0C148D4A0C00015EE3 /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -167,6 +238,7 @@
 				8A723B37148D4B7D00015EE3 /* Universal */,
 				8A723B39148D4B8C00015EE3 /* iPhone */,
 				8A723B38148D4B8400015EE3 /* iPad */,
+				8A7426BF149C02DE00F912CF /* Plugins */,
 				8A723C90148D77E400015EE3 /* Data */,
 				8A723B13148D4A0C00015EE3 /* Supporting Files */,
 			);
@@ -226,6 +298,10 @@
 				8A723B4A148D572400015EE3 /* BioViewController.m */,
 				8A723B46148D4D6600015EE3 /* MoreViewController.h */,
 				8A723B47148D4D6600015EE3 /* MoreViewController.m */,
+				8A2673131498708E00493637 /* MoreImageViewCell.h */,
+				8A2673141498709000493637 /* MoreImageViewCell.m */,
+				8ADE6F9B149C2504000F3C95 /* MoreWebViewCell.h */,
+				8ADE6F9C149C2505000F3C95 /* MoreWebViewCell.m */,
 				8A723B24148D4A0D00015EE3 /* TheologiansViewController.h */,
 				8A723B25148D4A0D00015EE3 /* TheologiansViewController.m */,
 				8A723B2B148D4A0D00015EE3 /* TopicsViewController.h */,
@@ -253,6 +329,11 @@
 		8A723B3D148D4BC900015EE3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8ADE6FF9149C7F9C000F3C95 /* Default-Portrait~iPad.png */,
+				8ADE6FFA149C7F9C000F3C95 /* Default.png */,
+				8ADE6FFB149C7F9C000F3C95 /* Default@2x.png */,
+				8A2673E71498E53B00493637 /* Icon.png */,
+				8A2673E81498E53B00493637 /* Icon@2x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -260,6 +341,17 @@
 		8A723B3E148D4BD200015EE3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8ADE6FBA149C4BFD000F3C95 /* tabbar_more_icon.png */,
+				8ADE6FAE149C4615000F3C95 /* tabbar_about_icon.png */,
+				8ADE6FB0149C4615000F3C95 /* tabbar_theologians_icon.png */,
+				8ADE6FB2149C4615000F3C95 /* tabbar_topics_icon.png */,
+				8A2673A814988F1900493637 /* niebuhr_on_being_artwork.png */,
+				8A267394149889A200493637 /* enchiridion_artwork.png */,
+				8ADE6F9E149C3795000F3C95 /* cityofgod_artwork.png */,
+				8A267396149889A200493637 /* malcolm_ballot_artwork.png */,
+				8A267398149889A200493637 /* malcolm_hate_yourself_artwork.png */,
+				8A26739A149889A200493637 /* malcolm_oxford_artwork.png */,
+				8A26739C149889A200493637 /* malcom_miseducation_artwork.png */,
 				8A723CB7148E990E00015EE3 /* augustine_avatar.png */,
 				8A723CB9148E990E00015EE3 /* malcolm_avatar.png */,
 				8A723CBB148E990E00015EE3 /* niebuhr_avatar.png */,
@@ -276,6 +368,17 @@
 		8A723B3F148D4BD900015EE3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8ADE6FBB149C4BFD000F3C95 /* tabbar_more_icon@2x.png */,
+				8ADE6FAF149C4615000F3C95 /* tabbar_about_icon@2x.png */,
+				8ADE6FB1149C4615000F3C95 /* tabbar_theologians_icon@2x.png */,
+				8ADE6FB3149C4615000F3C95 /* tabbar_topics_icon@2x.png */,
+				8ADE6F9F149C3795000F3C95 /* cityofgod_artwork@2x.png */,
+				8A2673A914988F1900493637 /* niebuhr_on_being_artwork@2x.png */,
+				8A267395149889A200493637 /* enchiridion_artwork@2x.png */,
+				8A267397149889A200493637 /* malcolm_ballot_artwork@2x.png */,
+				8A267399149889A200493637 /* malcolm_hate_yourself_artwork@2x.png */,
+				8A26739B149889A200493637 /* malcolm_oxford_artwork@2x.png */,
+				8A26739D149889A200493637 /* malcom_miseducation_artwork@2x.png */,
 				8A723CB8148E990E00015EE3 /* augustine_avatar@2x.png */,
 				8A723CBA148E990E00015EE3 /* malcolm_avatar@2x.png */,
 				8A723CBC148E990E00015EE3 /* niebuhr_avatar@2x.png */,
@@ -311,6 +414,23 @@
 				8AF17F88148F29CF00085C9C /* Localizable.strings */,
 			);
 			name = Data;
+			sourceTree = "<group>";
+		};
+		8A7426BF149C02DE00F912CF /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				8A7426C0149C02F700F912CF /* Reachability */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		8A7426C0149C02F700F912CF /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				8A7426C1149C030A00F912CF /* Reachability.h */,
+				8A7426C2149C030A00F912CF /* Reachability.m */,
+			);
+			name = Reachability;
 			sourceTree = "<group>";
 		};
 		8AF17F8A148F38E300085C9C /* Util */ = {
@@ -399,6 +519,33 @@
 				8A723CC1148E990E00015EE3 /* niebuhr_avatar.png in Resources */,
 				8A723CC2148E990E00015EE3 /* niebuhr_avatar@2x.png in Resources */,
 				8AF17F86148F29CF00085C9C /* Localizable.strings in Resources */,
+				8A26739E149889A200493637 /* enchiridion_artwork.png in Resources */,
+				8A26739F149889A200493637 /* enchiridion_artwork@2x.png in Resources */,
+				8A2673A0149889A200493637 /* malcolm_ballot_artwork.png in Resources */,
+				8A2673A1149889A200493637 /* malcolm_ballot_artwork@2x.png in Resources */,
+				8A2673A2149889A200493637 /* malcolm_hate_yourself_artwork.png in Resources */,
+				8A2673A3149889A200493637 /* malcolm_hate_yourself_artwork@2x.png in Resources */,
+				8A2673A4149889A200493637 /* malcolm_oxford_artwork.png in Resources */,
+				8A2673A5149889A200493637 /* malcolm_oxford_artwork@2x.png in Resources */,
+				8A2673A6149889A200493637 /* malcom_miseducation_artwork.png in Resources */,
+				8A2673A7149889A200493637 /* malcom_miseducation_artwork@2x.png in Resources */,
+				8A2673AA14988F1900493637 /* niebuhr_on_being_artwork.png in Resources */,
+				8A2673AB14988F1900493637 /* niebuhr_on_being_artwork@2x.png in Resources */,
+				8A2673E91498E53B00493637 /* Icon.png in Resources */,
+				8A2673EA1498E53B00493637 /* Icon@2x.png in Resources */,
+				8ADE6FA0149C3795000F3C95 /* cityofgod_artwork.png in Resources */,
+				8ADE6FA1149C3795000F3C95 /* cityofgod_artwork@2x.png in Resources */,
+				8ADE6FB4149C4615000F3C95 /* tabbar_about_icon.png in Resources */,
+				8ADE6FB5149C4615000F3C95 /* tabbar_about_icon@2x.png in Resources */,
+				8ADE6FB6149C4615000F3C95 /* tabbar_theologians_icon.png in Resources */,
+				8ADE6FB7149C4615000F3C95 /* tabbar_theologians_icon@2x.png in Resources */,
+				8ADE6FB8149C4615000F3C95 /* tabbar_topics_icon.png in Resources */,
+				8ADE6FB9149C4615000F3C95 /* tabbar_topics_icon@2x.png in Resources */,
+				8ADE6FBC149C4BFD000F3C95 /* tabbar_more_icon.png in Resources */,
+				8ADE6FBD149C4BFD000F3C95 /* tabbar_more_icon@2x.png in Resources */,
+				8ADE6FFC149C7F9C000F3C95 /* Default-Portrait~iPad.png in Resources */,
+				8ADE6FFD149C7F9C000F3C95 /* Default.png in Resources */,
+				8ADE6FFE149C7F9C000F3C95 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +570,9 @@
 				8A723B9A148D68CF00015EE3 /* Topic.m in Sources */,
 				8A723B9D148D68D000015EE3 /* TheologianTopic.m in Sources */,
 				8AF17F8D148F38FD00085C9C /* ViewHelper.m in Sources */,
+				8A2673151498709000493637 /* MoreImageViewCell.m in Sources */,
+				8A7426C3149C030A00F912CF /* Reachability.m in Sources */,
+				8ADE6F9D149C2505000F3C95 /* MoreWebViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +620,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ben Talberg (NRF59UW7BV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -485,6 +636,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "B5203C67-A76A-4E00-AB5B-4E619E9A451D";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -496,6 +648,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ben Talberg (NRF59UW7BV)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -505,6 +658,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "B5203C67-A76A-4E00-AB5B-4E619E9A451D";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

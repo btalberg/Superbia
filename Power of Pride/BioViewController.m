@@ -43,36 +43,47 @@
     [self.mCityBornField setText:[mTheologian cityborn]];
     [self.mCityDiedField setText:[mTheologian citydied]];
     
+    CGFloat xPos;
+    CGFloat viewMargin;
+    CGFloat headerHeight;
     
-    CGFloat xPos = 200.0f;
-    CGFloat viewMargin = 10.0f;
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        xPos = 200.0f;
+        viewMargin = 10.0f;
+        headerHeight = 20.0f;
+    } else {
+        xPos = 400.0f;
+        viewMargin = 20.0f;
+        headerHeight = 40.0f;
+    }
     
+    CGFloat objectWidth = self.view.frame.size.width - (2 * viewMargin);
     
     UILabel *bioHeader = [ViewHelper createHeader:@"Bio"];
     UILabel *themesHeader = [ViewHelper createHeader:@"Themes"];
     
     UITextView *bioTextView = 
-        [ViewHelper createContent:[mTheologian bio]];
+        [ViewHelper createContent:[mTheologian bio] objectWidth:objectWidth];
     UITextView *themesTextView = 
-        [ViewHelper createContent:[mTheologian themes]];
+        [ViewHelper createContent:[mTheologian themes] objectWidth:objectWidth];
 
     [self.mScrollView addSubview:bioHeader];
-    [bioHeader setFrame:CGRectMake(10.0f, xPos, 300.0f, 20.0f)];
+    [bioHeader setFrame:CGRectMake(viewMargin, xPos, objectWidth, headerHeight)];
     xPos += bioHeader.frame.size.height + viewMargin;
     
     [self.mScrollView addSubview:bioTextView];
-    [bioTextView setFrame:CGRectMake(10.0f, xPos, 300.0f, bioTextView.contentSize.height)];
+    [bioTextView setFrame:CGRectMake(viewMargin, xPos, objectWidth, bioTextView.contentSize.height)];
     xPos += bioTextView.contentSize.height + viewMargin;
 
     [self.mScrollView addSubview:themesHeader];
-    [themesHeader setFrame:CGRectMake(10.0f, xPos, 300.0f, 20.0f)];
+    [themesHeader setFrame:CGRectMake(viewMargin, xPos, objectWidth, headerHeight)];
     xPos += themesHeader.frame.size.height + viewMargin;
     
     [self.mScrollView addSubview:themesTextView];
-    [themesTextView setFrame:CGRectMake(10.0f, xPos, 300.0f, themesTextView.contentSize.height)];
+    [themesTextView setFrame:CGRectMake(viewMargin, xPos, objectWidth, themesTextView.contentSize.height)];
     xPos += themesTextView.contentSize.height + viewMargin;
   
-    self.mScrollView.contentSize = CGSizeMake(320.0f, xPos);
+    self.mScrollView.contentSize = CGSizeMake(self.view.frame.size.width, xPos);
 }
 
 - (void)viewDidUnload

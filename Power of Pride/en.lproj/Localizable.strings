@@ -7,18 +7,19 @@
 */
 
 "AboutView_AboutText" = 
-"Augustine and Niebuhr share many commonalities in their thinking. A central issue they focus on is human nature, and human nature's inability to avoid sin. They root their concept of sin in pride and sensuality. Their concept of sin has greatly impacted modern culture, the way we think, the way we act, the way we understand the divine. Their thoughts alone are valuable, to students, to thinkers, even to modern situations as the nations of the world tredge forward. However, their framework of sin can also be dangerous, and has had a devastating impact on millions of people.
+"Superbia is based on Professor Dr. JoAnne Terrell's class Augustine, Niebuhr, & Malcolm X as delivered at Chicago Theological Seminary in the fall of 2011.
 
-Specific to the United States, those implicated have been women and black people. In a society in which a person is admonished for pursuing a sense of pride, the oppressed have no way out. Malcolm X implicitly offers a powerful critique of Augustine and Niebuhr. A theologican himself, Malcolm saw a danger in the lack of pride. He was a product of the injust society these thinker's orthodoxic views had created. And he argued powerfully for a way out amongst the oppressed.";
+Saint Augustine of Hippo and Reinhold Niebuhr each emphasize humankind's sinful nature. They believed that the human was naturally inclined to sin, through pride and sensuality. Much of Western culture's concept of being and right living extend from this disparing view of human nature. Although Augustine and Niebuhr's thinking exudes God's goodness, their theological anthropology has been had a major detrimental impact on many people, particularly the oppressed, including women and African-Americans. Malcolm X offers an implicit critique of popular Christian's view of humanity. A theologian himself, Malcolm saw the danger in an oppressed people eschewing pride.
+
+Superbia, Latin for Pride, focuses on the concept of pride as understood by Augustine, Niebuhr, and Malcolm. Holding these three philosophers under the same light allows traditional ideas about existence and right living to be challenged and expanded.";
 
 "AboutView_InspirationText" = 
-"This application is the product of a graduate program assignment.
-
-Seminary: Chicago Theological Seminary
+"Seminary: Chicago Theological Seminary
 Instructor: Dr. JoAnne Terrell
+Contact: jterrell@ctschicago.edu
 Class: TEC-504, Augustine, Niebuhr, & Malcolm X, Fall 2011
 
-Course focus is to review and reflect on the concepts of Augustine, Reinhold Niebuhr, and Malcolm X.  Specifically how Malcolm's words offer criticism against traditonal concepts of sin and pride.";
+Course focus is to review and reflect on the concepts of Augustine, Reinhold Niebuhr, and Malcolm X.  Specifically how Malcolm critiques traditonal concepts of sin and pride.";
 
 "AboutView_SourcesText" = 
 "Lecture content as delivered by Dr. JoAnne Terrell, Fall 2011
@@ -29,10 +30,12 @@ http://en.wikipedia.org/wiki/Augustine_of_Hippo
 
 http://en.wikipedia.org/wiki/Reinhold_Niebuhr
 
-Saint Augustine of Hippo's - City of God
+http://librivox.org/the-enchiridion-by-saint-augustine/
 
-James H. Cone.  Martin and Malcolm and America: A Dream or Nightmare. Maryknoll: Orbis Books, 1991
+Tippett, Krista. Niebuhr Rediscovered. American Public Media. http://being.publicradio.org/programs/niebuhr-rediscovered/
+
+Cone, J. H. Martin and Malcolm and America: A Dream or Nightmare. Maryknoll: Orbis Books, 1991
 
 Malcom X. The Autobiography of Malcolm X as told by Alex Haley. New York: Ballantine Publishing, 1965
 
-Larry Rasmussen.  Reinhold niebuhr: Theologian of Public Life.  Minneapolis: Fortress Books, 1991";
+Niebuhr, Reinhold. Reinhold Niebuhr: theologian of public life. Edited by Larry Rasmussen. Minneapolis, MN: Fortress Press, 1991.";

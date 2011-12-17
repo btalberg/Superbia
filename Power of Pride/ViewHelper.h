@@ -11,6 +11,6 @@
 @interface ViewHelper : NSObject
 
 + (UILabel *) createHeader:(NSString *)text;
-+ (UITextView *) createContent:(NSString *)text;
-
++ (UITextView *) createContent:(NSString *)text objectWidth:(CGFloat)width;
++ (UIButton *) createButton:(NSString *)text withResource:(NSString *)resource;
 @end
