@@ -19,6 +19,7 @@
         [[UILabel alloc] initWithFrame:CGRectZero];
     header.font = headerFont;
     header.text = text;
+    header.backgroundColor = [UIColor clearColor];
     
     return header;
 }
@@ -32,6 +33,7 @@
     textField.font = contentFont;
     textField.text = text;
     textField.scrollEnabled = NO;
+    textField.backgroundColor = [UIColor clearColor];
     
     return textField;
 }

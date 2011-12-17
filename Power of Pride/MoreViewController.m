@@ -541,6 +541,20 @@
     return cell;
 }
 
+- (UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section 
+{
+    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.bounds.size.width, 30)];
+
+    UILabel *label = [ViewHelper createHeader:[tableView.dataSource tableView:tableView titleForHeaderInSection:section]];
+    
+    [label setFrame:CGRectMake(10, 3, tableView.bounds.size.width - 10, 18)];
+    
+    [headerView addSubview:label];
+    [headerView setBackgroundColor:[UIColor clearColor]];
+    
+    return headerView;
+}
+
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
